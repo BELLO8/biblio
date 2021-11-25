@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_9791a719fed70302b85149de9ff5a60f" kind="dir">
+    <compoundname>Header</compoundname>
+    <innerfile refid="adherant_8h">adherant.h</innerfile>
+    <innerfile refid="connexion_8h">connexion.h</innerfile>
+    <innerfile refid="emprunter_8h">emprunter.h</innerfile>
+    <innerfile refid="livre_8h">livre.h</innerfile>
+    <innerfile refid="menu_8h">menu.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Header/"/>
+  </compounddef>
+</doxygen>

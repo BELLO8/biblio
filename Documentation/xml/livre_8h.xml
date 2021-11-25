@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="livre_8h" kind="file" language="C++">
+    <compoundname>livre.h</compoundname>
+    <includedby refid="livre_8c" local="yes">Source/livre.c</includedby>
+    <includedby refid="menu_8c" local="yes">Source/menu.c</includedby>
+    <invincdepgraph>
+      <node id="13">
+        <label>Header/livre.h</label>
+        <link refid="livre_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Source/menu.c</label>
+        <link refid="menu_8c"/>
+      </node>
+      <node id="14">
+        <label>Source/livre.c</label>
+        <link refid="livre_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="livre_8h_1a6bc2464abd5d1b31cc86194922200113" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Liste_Livre</definition>
+        <argsstring>(MYSQL *connexion)</argsstring>
+        <name>Liste_Livre</name>
+        <param>
+          <type>MYSQL *</type>
+          <declname>connexion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Header/livre.h" line="4" column="1" bodyfile="Source/livre.c" bodystart="6" bodyend="27"/>
+        <referencedby refid="menu_8c_1a7b27fa1cd88be135a242f9c137dd745e" compoundref="menu_8c" startline="33" endline="111">instruction</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="livre_8h_1a3d5a407c94272ee4bf36d166a6e90133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void insere_livre</definition>
+        <argsstring>(MYSQL *conn)</argsstring>
+        <name>insere_livre</name>
+        <param>
+          <type>MYSQL *</type>
+          <declname>conn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Header/livre.h" line="5" column="1" bodyfile="Source/livre.c" bodystart="29" bodyend="61"/>
+        <referencedby refid="menu_8c_1a7b27fa1cd88be135a242f9c137dd745e" compoundref="menu_8c" startline="33" endline="111">instruction</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>LIVRE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIVRE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="livre_8h_1a6bc2464abd5d1b31cc86194922200113" kindref="member">Liste_Livre</ref>(MYSQL<sp/>*<ref refid="connexion_8h_1a9d9a95cb3f145d625490698dc9a36981" kindref="member">connexion</ref>);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="livre_8h_1a3d5a407c94272ee4bf36d166a6e90133" kindref="member">insere_livre</ref>(MYSQL<sp/>*conn);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="Header/livre.h"/>
+  </compounddef>
+</doxygen>

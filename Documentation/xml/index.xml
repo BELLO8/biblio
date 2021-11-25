@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="adherant_8h" kind="file"><name>adherant.h</name>
+    <member refid="adherant_8h_1a9a3c615db5a86eab8746f2ddbae1bcac" kind="function"><name>liste_Adeherant</name></member>
+    <member refid="adherant_8h_1a9982c502229cdf9ca9d7efd9756b6a95" kind="function"><name>ajouter_adherant</name></member>
+  </compound>
+  <compound refid="connexion_8h" kind="file"><name>connexion.h</name>
+    <member refid="connexion_8h_1a9d9a95cb3f145d625490698dc9a36981" kind="function"><name>connexion</name></member>
+  </compound>
+  <compound refid="emprunter_8h" kind="file"><name>emprunter.h</name>
+    <member refid="emprunter_8h_1a0ad6d357ae8f1a1fbaa0c89045bb0a44" kind="function"><name>emprunterUnLivre</name></member>
+    <member refid="emprunter_8h_1a681dc4003fbc86be8328f7539f821614" kind="function"><name>deposer_livre</name></member>
+    <member refid="emprunter_8h_1a7b615bb15707628327462e2deaf4f2ce" kind="function"><name>liste_emprunt</name></member>
+  </compound>
+  <compound refid="livre_8h" kind="file"><name>livre.h</name>
+    <member refid="livre_8h_1a6bc2464abd5d1b31cc86194922200113" kind="function"><name>Liste_Livre</name></member>
+    <member refid="livre_8h_1a3d5a407c94272ee4bf36d166a6e90133" kind="function"><name>insere_livre</name></member>
+  </compound>
+  <compound refid="menu_8h" kind="file"><name>menu.h</name>
+    <member refid="menu_8h_1a2a0e843767aeea4f433a28b9c54f573a" kind="function"><name>menu</name></member>
+    <member refid="menu_8h_1a00990449875fc238baa27ecdb95d24b6" kind="function"><name>menu_admin</name></member>
+    <member refid="menu_8h_1a1a117be04e7a04994d9d89038cb6c81e" kind="function"><name>instruction</name></member>
+  </compound>
+  <compound refid="adherant_8c" kind="file"><name>adherant.c</name>
+    <member refid="adherant_8c_1a9a3c615db5a86eab8746f2ddbae1bcac" kind="function"><name>liste_Adeherant</name></member>
+    <member refid="adherant_8c_1a9982c502229cdf9ca9d7efd9756b6a95" kind="function"><name>ajouter_adherant</name></member>
+  </compound>
+  <compound refid="connexion_8c" kind="file"><name>connexion.c</name>
+    <member refid="connexion_8c_1a9d9a95cb3f145d625490698dc9a36981" kind="function"><name>connexion</name></member>
+  </compound>
+  <compound refid="emprunter_8c" kind="file"><name>emprunter.c</name>
+    <member refid="emprunter_8c_1a0ad6d357ae8f1a1fbaa0c89045bb0a44" kind="function"><name>emprunterUnLivre</name></member>
+    <member refid="emprunter_8c_1a681dc4003fbc86be8328f7539f821614" kind="function"><name>deposer_livre</name></member>
+    <member refid="emprunter_8c_1a7b615bb15707628327462e2deaf4f2ce" kind="function"><name>liste_emprunt</name></member>
+  </compound>
+  <compound refid="livre_8c" kind="file"><name>livre.c</name>
+    <member refid="livre_8c_1a6bc2464abd5d1b31cc86194922200113" kind="function"><name>Liste_Livre</name></member>
+    <member refid="livre_8c_1a3d5a407c94272ee4bf36d166a6e90133" kind="function"><name>insere_livre</name></member>
+  </compound>
+  <compound refid="_main_8c" kind="file"><name>Main.c</name>
+    <member refid="_main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="menu_8c" kind="file"><name>menu.c</name>
+    <member refid="menu_8c_1a2a0e843767aeea4f433a28b9c54f573a" kind="function"><name>menu</name></member>
+    <member refid="menu_8c_1a00990449875fc238baa27ecdb95d24b6" kind="function"><name>menu_admin</name></member>
+    <member refid="menu_8c_1a7b27fa1cd88be135a242f9c137dd745e" kind="function"><name>instruction</name></member>
+  </compound>
+  <compound refid="dir_9791a719fed70302b85149de9ff5a60f" kind="dir"><name>Header</name>
+  </compound>
+  <compound refid="dir_74389ed8173ad57b461b9d623a1f3867" kind="dir"><name>Source</name>
+  </compound>
+</doxygenindex>

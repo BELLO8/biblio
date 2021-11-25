@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="menu_8h" kind="file" language="C++">
+    <compoundname>menu.h</compoundname>
+    <includedby refid="_main_8c" local="yes">Source/Main.c</includedby>
+    <includedby refid="menu_8c" local="yes">Source/menu.c</includedby>
+    <invincdepgraph>
+      <node id="18">
+        <label>Source/Main.c</label>
+        <link refid="_main_8c"/>
+      </node>
+      <node id="19">
+        <label>Source/menu.c</label>
+        <link refid="menu_8c"/>
+      </node>
+      <node id="17">
+        <label>Header/menu.h</label>
+        <link refid="menu_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="menu_8h_1a2a0e843767aeea4f433a28b9c54f573a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void menu</definition>
+        <argsstring>()</argsstring>
+        <name>menu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Header/menu.h" line="4" column="1" bodyfile="Source/menu.c" bodystart="10" bodyend="19"/>
+        <referencedby refid="menu_8c_1a7b27fa1cd88be135a242f9c137dd745e" compoundref="menu_8c" startline="33" endline="111">instruction</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="menu_8h_1a00990449875fc238baa27ecdb95d24b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void menu_admin</definition>
+        <argsstring>()</argsstring>
+        <name>menu_admin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Header/menu.h" line="5" column="1" bodyfile="Source/menu.c" bodystart="21" bodyend="31"/>
+        <referencedby refid="menu_8c_1a7b27fa1cd88be135a242f9c137dd745e" compoundref="menu_8c" startline="33" endline="111">instruction</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="menu_8h_1a1a117be04e7a04994d9d89038cb6c81e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void instruction</definition>
+        <argsstring>()</argsstring>
+        <name>instruction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Header/menu.h" line="6" column="1"/>
+        <referencedby refid="_main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_main_8c" startline="7" endline="35">main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>MENU_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MENU_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="menu_8h_1a2a0e843767aeea4f433a28b9c54f573a" kindref="member">menu</ref>();</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="menu_8h_1a00990449875fc238baa27ecdb95d24b6" kindref="member">menu_admin</ref>();</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="menu_8h_1a1a117be04e7a04994d9d89038cb6c81e" kindref="member">instruction</ref>();</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="Header/menu.h"/>
+  </compounddef>
+</doxygen>

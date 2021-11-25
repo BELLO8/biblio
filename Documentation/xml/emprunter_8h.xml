@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="emprunter_8h" kind="file" language="C++">
+    <compoundname>emprunter.h</compoundname>
+    <includedby refid="emprunter_8c" local="yes">Source/emprunter.c</includedby>
+    <includedby refid="menu_8c" local="yes">Source/menu.c</includedby>
+    <invincdepgraph>
+      <node id="10">
+        <label>Source/emprunter.c</label>
+        <link refid="emprunter_8c"/>
+      </node>
+      <node id="11">
+        <label>Source/menu.c</label>
+        <link refid="menu_8c"/>
+      </node>
+      <node id="9">
+        <label>Header/emprunter.h</label>
+        <link refid="emprunter_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="emprunter_8h_1a0ad6d357ae8f1a1fbaa0c89045bb0a44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void emprunterUnLivre</definition>
+        <argsstring>(MYSQL *conn)</argsstring>
+        <name>emprunterUnLivre</name>
+        <param>
+          <type>MYSQL *</type>
+          <declname>conn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Header/emprunter.h" line="4" column="1" bodyfile="Source/emprunter.c" bodystart="6" bodyend="54"/>
+        <referencedby refid="menu_8c_1a7b27fa1cd88be135a242f9c137dd745e" compoundref="menu_8c" startline="33" endline="111">instruction</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="emprunter_8h_1a681dc4003fbc86be8328f7539f821614" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void deposer_livre</definition>
+        <argsstring>(MYSQL *conn)</argsstring>
+        <name>deposer_livre</name>
+        <param>
+          <type>MYSQL *</type>
+          <declname>conn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Header/emprunter.h" line="6" column="1" bodyfile="Source/emprunter.c" bodystart="57" bodyend="89"/>
+        <referencedby refid="menu_8c_1a7b27fa1cd88be135a242f9c137dd745e" compoundref="menu_8c" startline="33" endline="111">instruction</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="emprunter_8h_1a7b615bb15707628327462e2deaf4f2ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void liste_emprunt</definition>
+        <argsstring>(MYSQL *conn)</argsstring>
+        <name>liste_emprunt</name>
+        <param>
+          <type>MYSQL *</type>
+          <declname>conn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Header/emprunter.h" line="8" column="1" bodyfile="Source/emprunter.c" bodystart="92" bodyend="112"/>
+        <referencedby refid="menu_8c_1a7b27fa1cd88be135a242f9c137dd745e" compoundref="menu_8c" startline="33" endline="111">instruction</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>EMPRUNTER_H<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EMPRUNTER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="emprunter_8h_1a0ad6d357ae8f1a1fbaa0c89045bb0a44" kindref="member">emprunterUnLivre</ref>(MYSQL<sp/>*conn);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="emprunter_8h_1a681dc4003fbc86be8328f7539f821614" kindref="member">deposer_livre</ref>(MYSQL<sp/>*conn);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="emprunter_8h_1a7b615bb15707628327462e2deaf4f2ce" kindref="member">liste_emprunt</ref>(MYSQL<sp/>*conn);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>!</highlight></codeline>
+    </programlisting>
+    <location file="Header/emprunter.h"/>
+  </compounddef>
+</doxygen>

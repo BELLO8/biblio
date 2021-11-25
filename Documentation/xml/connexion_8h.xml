@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="connexion_8h" kind="file" language="C++">
+    <compoundname>connexion.h</compoundname>
+    <includedby refid="connexion_8c" local="yes">Source/connexion.c</includedby>
+    <includedby refid="_main_8c" local="yes">Source/Main.c</includedby>
+    <invincdepgraph>
+      <node id="7">
+        <label>Source/Main.c</label>
+        <link refid="_main_8c"/>
+      </node>
+      <node id="6">
+        <label>Source/connexion.c</label>
+        <link refid="connexion_8c"/>
+      </node>
+      <node id="5">
+        <label>Header/connexion.h</label>
+        <link refid="connexion_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="connexion_8h_1a9d9a95cb3f145d625490698dc9a36981" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void connexion</definition>
+        <argsstring>(MYSQL *conn)</argsstring>
+        <name>connexion</name>
+        <param>
+          <type>MYSQL *</type>
+          <declname>conn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Header/connexion.h" line="4" column="1" bodyfile="Source/connexion.c" bodystart="7" bodyend="28"/>
+        <referencedby refid="_main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_main_8c" startline="7" endline="35">main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>DB_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DB_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="connexion_8h_1a9d9a95cb3f145d625490698dc9a36981" kindref="member">connexion</ref>(MYSQL<sp/>*conn);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="Header/connexion.h"/>
+  </compounddef>
+</doxygen>

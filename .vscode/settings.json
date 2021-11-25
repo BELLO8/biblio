@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "mysql.h": "c",
+        "connexion.h": "c",
+        "stdlib.h": "c",
+        "emprunter.h": "c"
+    },
+    "xd.globalEditor": true,
+    "xd.lastPackage": "/home/kader/Design/dsp",
+    "editor.fontWeight": "bold",
+    "editor.fontSize": 15
+}
